@@ -2,7 +2,6 @@
     - Ctrl-shift-P : Command palette
     - Ctrl-P : Quick file open
     - Ctrl-Shift-M : Error and warnings
-
     - Ctrl-K, Ctrl-S : Keyboard Shortcut
     - Ctrl-, : User setting
     - Ctrl-` : Terminal
@@ -11,7 +10,7 @@
 
 # Editor
     - Ctrl-Click : Create or open a file
-    - Ctrl-Alt-Up : Multi cursor (reverse)
+    - Ctrl-Shift-Alt-Up : Multi cursor (reverse)
     - Shift-Alt-Up : Copy line up (reverse)
     - Shift-Alt-Left: Shrink line selection (reverse)
     - Ctrl-B: Navigate to a specific line
