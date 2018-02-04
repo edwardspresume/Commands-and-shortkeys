@@ -1,14 +1,9 @@
 # General
-    - Ctrl-shift-P : Command palette
-    - Ctrl-P : Quick file open
-    - Ctrl-Shift-M : Error and warnings
-    - Ctrl-K, Ctrl-S : Keyboard Shortcut
-    - Ctrl-, : User setting
-    - Ctrl-` : Terminal
-    - Ctrl-B: Toggle sidebar
-    - Ctrl-K-Z : Zen mode
+
+(#sending-feedback) - Ctrl-shift-P : Command palette - Ctrl-P : Quick file open - Ctrl-Shift-M : Error and warnings - Ctrl-K, Ctrl-S : Keyboard Shortcut - Ctrl-, : User setting - Ctrl-` : Terminal - Ctrl-B: Toggle sidebar - Ctrl-K-Z : Zen mode
 
 # Editor
+
     - Ctrl-Click : Create or open a file
     - Ctrl-Shift-Alt-Up : Multi cursor (reverse)
     - Shift-Alt-Up : Copy line up (reverse)
