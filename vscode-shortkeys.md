@@ -1,15 +1,15 @@
-#VSCODE Shortkeys
+# VSCODE Shortkeys
 
 ## General
 
-* **Ctrl-shift-P**: Command palette
-* **Ctrl-P**: Quick file open
-* **Ctrl-Shift-M**: Error and warnings
-* **Ctrl-K, Ctrl-S**: Keyboard Shortcut
-* **Ctrl-,**: User setting
-* **Ctrl-`**: Terminal
-* **Ctrl-B**: Toggle sidebar
-* **Ctrl-K-Z**: Zen mode
+* **Ctrl-shift-P** : Command palette
+* **Ctrl-P** : Quick file open
+* **Ctrl-Shift-M** : Error and warnings
+* **Ctrl-K, Ctrl-S** : Keyboard Shortcut
+* **Ctrl-,** : User setting
+* **Ctrl-`** : Terminal
+* **Ctrl-B** : Toggle sidebar
+* **Ctrl-K-Z** : Zen mode
 
 ## Editor
 
