@@ -7,6 +7,7 @@
 - **ls -al** : list all files including those whose names begin with a period.
 - **cd** : changes the shell's working directory to the given directory
 - **mkdir** `file name` : creates a new directory with the given name
+- **mkdir -p `file name/file name`** : The -p flag allows us to create more then one directory
 - **rmdir** `file name` : removes the directory with the given name (the directory must be empty)
 
 ## File operations
@@ -15,6 +16,9 @@
 - **mv** : moves (or renames) a file/directory
 - **rm** : deletes a file
 - **touch** : creates a new file
+- **nano `file name`** : Opens a file to then edit
+- **vim `file name`** : Opens a file to then edit with more capabilities
+- **touch -d "timestamp" `file name** : The -d flags allows us to update the timestamp of a file
 
 ## File examination
 
