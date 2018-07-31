@@ -83,7 +83,4 @@
 
 ## NPM SCRIPT
 
-"scripts": {
-"start": "node index.js",
-"dev": "live-server"
-},
+`"scripts": { "start": "node index.js", "dev": "live-server" },`
