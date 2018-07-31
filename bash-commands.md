@@ -12,13 +12,14 @@
 
 ## File operations
 
-- **cp** 'file name``new file name` : copies a file/directory
+- **cp** `file name` `new file name` : copies a file/directory
 - **mv** : moves (or renames) a file/directory
 - **rm** : deletes a file
 - **touch** : creates a new file
 - **nano `file name`** : Opens a file to then edit
 - **vim `file name`** : Opens a file to then edit with more capabilities
-- **touch -d "timestamp" `file name** : The -d flags allows us to update the timestamp of a file
+- **touch -d `"timestamp"` `file name`** : The -d flags allows us to update the timestamp of a file
+- **mv `original name` `new name`** : Change the name of a file
 
 ## File examination
 
