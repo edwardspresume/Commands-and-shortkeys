@@ -3,11 +3,11 @@
 ## General
 
 - **Ctrl-shift-P** : Command palette
-- **Ctrl-P** : Quick file open
+- **Ctrl-P** : Quick file open (project files)
 - **Ctrl-Shift-M** : Error and warnings
 - **Ctrl-K, Ctrl-S** : Keyboard Shortcut
-- **Ctrl-,** : User setting
-- **Ctrl-`** : Terminal
+- **Ctrl-(,)** : User setting
+- **Ctrl-(`)** : Terminal
 - **Ctrl-B** : Toggle sidebar
 - **Ctrl-K-Z** : Zen mode
 
@@ -22,3 +22,4 @@
 - **Shift-Alt-F**: Code format
 - **Ctrl-I** : Select current line
 - **Ctrl-Space** : to trigger the suggestion widget
+- **Ctrl-(.)** : Code option
