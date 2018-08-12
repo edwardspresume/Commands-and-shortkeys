@@ -82,7 +82,7 @@
 ## Files
 
 - rm -rf <Folder name> (remove folder)
-- nano <file name>
+- nano <\file name>
 
 ## INSTALL NODMON LOCALLY
 

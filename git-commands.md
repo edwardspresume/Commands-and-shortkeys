@@ -21,7 +21,7 @@
 - **git rm -r <folder name>** : removes the entire folder
 - **git merge <branch name>**
 
-##Changes
+## Changes
 
 - **git pull origin master**
 - **git diff head** : checks the changes made from the last commit
@@ -29,7 +29,7 @@
 - **git reset <file name>** : upstage a file
 - **git checkout -- <file name>**: Gets rid all of the changes made since the last commit
 
-##Branches
+## Branches
 
 - **git branch <branch name>** : creates a new branch typically used to test a feature or fix a bug
 - **git checkout <branch name>** : switches to that branch
@@ -38,7 +38,7 @@
 - **git branch -d <branch name>** : deletes branch
 - **git branch -D <branch name>** : to forcefully delete a branch
 
-##Notes
+## Notes
 
 - When using get add, be careful not to use add all to include folders we don't want. Specify with the file name.
 - **git log -- summary**: to see more information about each commit
