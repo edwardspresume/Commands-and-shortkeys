@@ -1,46 +1,90 @@
-# Git Commands
+Git Commands
+============
+_A list of Git commands_
 
-## Process
+-- 
 
-- **git init** : start a new project
-- **git clone** : clone an existing project
-- **git status** :
-- **git add** :
-- **git add --all** : Adds all files and modified files
-- **git add \*.txt** : Adds all text files in current directory
-- **git add "\*.text"** : Adds all txt file in the whole project
-- **git add docs/\*.txt** : Adds all txt files in doc folder
-- **git add -A** : add all files and ensures that the deletions are included
-- **git commit -m 'Commit message'** : Stores the new version
-  of our source code
-- **git commit -am 'comment'** : auto remove deleted files from commit
-- **git remote add origin <url>**
-- **git push -u origin master** : Push your code to a local or remote repository
+### Setup user info for commit credit
+| Command | Description |
+| ------- | ----------- |
+| `git config user.name "[user name]" --global`| Set user name|
+| `git config user.email "[user email]" --global`| Set user email|
 
-- **git rm <file name>** : removes files from disk and staging area
-- **git rm -r <folder name>** : removes the entire folder
-- **git merge <branch name>**
 
-## Changes
 
-- **git pull origin master**
-- **git diff head** : checks the changes made from the last commit
-- **git diff --staged** : shows us the changes that have been staged
-- **git reset <file name>** : upstage a file
-- **git checkout -- <file name>**: Gets rid all of the changes made since the last commit
+### Getting & Creating Projects
 
-## Branches
+| Command | Description |
+| ------- | ----------- |
+| `git init [folder name (optional)]` | Initialize a local Git repository |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add a remote repository|
+| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-- **git branch <branch name>** : creates a new branch typically used to test a feature or fix a bug
-- **git checkout <branch name>** : switches to that branch
-- **git branch** : Shows our branches
-- **git checkout -b <new_branch>** : creates and switches over to new branch
-- **git branch -d <branch name>** : deletes branch
-- **git branch -D <branch name>** : to forcefully delete a branch
 
-## Notes
 
-- When using get add, be careful not to use add all to include folders we don't want. Specify with the file name.
-- **git log -- summary**: to see more information about each commit
-- **git stash**: Sometimes when you go to pull you may have changes you don't want to commit just yet. One option you have, other than committing, is to stash the changes.
-- **git stash apply** : to re-apply your changes after your pull.
+### Basic Snapshotting
+
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add *.txt` | Adds all text files in current directory |
+| `git add (-A) or (.)` | Add all new and changed files to the staging area |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git commit -am "[commit message]"` | Auto remove deleted files from commit |
+| `git rm [file name.txt]` | Removes file from disk and staging area
+| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
+
+
+### Branching & Merging
+
+| Command | Description |
+| ------- | ----------- |
+| `git branch` | List branches (the asterisk denotes the current branch) |
+| `git branch -a` | List all branches (local and remote) |
+| `git branch [branch name]` | Create a new branch |
+| `git branch -d [branch name]` | Delete a branch |
+| `git branch -D [branch name]` | Forcefully delete a branch |
+| `git push origin --delete [branchName]` | Delete a remote branch |
+| `git checkout -b [branch name]` | Create a new branch and switch to it |
+| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
+| `git checkout [branch name]` | Switch to a branch |
+| `git checkout -` | Switch to the branch last checked out |
+| `git checkout -- [file-name.txt]` | Discard changes to a file |
+| `git checkout [commit id]` | Look out previous code (read only) |
+| `git merge [branch name]` | Merge a branch into the active branch |
+| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git stash` | Stash changes in a dirty working directory |
+| `git stash clear` | Remove all stashed entries |
+
+
+
+### Sharing & Updating Projects
+
+| Command | Description |
+| ------- | ----------- |
+| `git push origin [branch name]` | Push a branch to your remote repository |
+| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push` | Push changes to remote repository (remembered branch) |
+| `git push origin --delete [branch name]` | Delete a remote branch |
+| `git pull` | Update local repository to the newest commit |
+| `git pull origin [branch name]` | Pull changes from remote repository |
+| `git remote -v` | Get info about removte repository |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+
+
+
+### Inspection & Comparison
+
+| Command | Description |
+| ------- | ----------- |
+| `git log` | View changes |
+| `git log --summary` | View changes (detailed) |
+| `git diff head` | Checks the changes made from the last commit |
+| `git diff --staged` | Check the changes that have been staged |
+| `git diff [source branch] [target branch}` | Preview changes before merging |
+
+
