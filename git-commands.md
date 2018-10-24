@@ -17,7 +17,6 @@ _A list of Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git init [folder name (optional)]` | Initialize a local Git repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add a remote repository|
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 
