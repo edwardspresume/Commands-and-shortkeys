@@ -1,11 +1,5 @@
 # Terminal Commands
 
-### Files and directory
-| Command           | Description          |
-| ----------------- | -------------------- |
-| `nano--gedit--vi` | Open the text editor |
-
-
 
 ### Directories
 | Command                                                                         | Description                                                                          |
@@ -22,19 +16,21 @@
 | `cp -r [original directory name] [new directory name or directory destination ` | Copy a directory recursively give it a new name or place it in a specified directory |
 | `rmdir [directory name]`                                                        | remove an empty directory                                                            |
 
+&nbsp;
 
 
 ### File operations
 | Command                                                            | Description                                                             |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| `touch`                                                            | creates a new file                                                      |
+| `touch [file name]`                                                | creates a new file                                                      |
 | `touch -d [timestamp] [file name]`                                 | The -d flags allows us to update the timestamp of a file                |
-| `rm`                                                               | Removes a file                                                          |
+| `rm [file name]`                                                   | Removes a file                                                          |
 | `cp [original file name] [new file name or directory destination ` | Copy a file and give it a new name or place it in a specified directory |
 | `cat [file name]`                                                  | output the contents of a file                                           |
 | `vim [file name]`                                                  | Opens a file to then edit with more capabilities                        |
 | `nano--gedit--vi [file name]`                                      | Open the text editor                                                    |
 
+&nbsp;
 
 
 | Command                    | Description                         |
@@ -44,9 +40,12 @@
 | `which [application name]` | Tell where a app is in the system   |
 | `reset`                    | Restore a console to a normal state |
 
+&nbsp; 
 
 
 - **mv** : moves (or renames) a file/directory
+
+&nbsp; 
 
 ## Text editor
 
@@ -54,9 +53,13 @@
 - **i** : allows the user to insert text
 - **`esc` :wq** : save and exit the text editor
 
+&nbsp;
+
 ## Network
 
 - **ping** : Test a network connection
+
+&nbsp; 
 
 ## Short keys
 
