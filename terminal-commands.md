@@ -1,17 +1,30 @@
-# Terminal Commands
+# Terminal short-keys and Commands
+
+
+## Short keys
+
+| Command           | Description                       |
+| ----------------- | --------------------------------- |
+| `crl+r`           | History of past commands          |
+| `crl+a`           | Jump to the front of current line |
+| `crl+e`           | Jump to the end of current line   |
+| `ctrl+l or clear` | Clear the terminal                |
+
+&nbsp; 
 
 
 ## Directories
+
 | Command                                                                         | Description                                                                          |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | `pwd`                                                                           | Displays  current working directory                                                  |
 | `ls`                                                                            | List files in a directory                                                            |
 | `ls -l`                                                                         | List files in a detailed format                                                      |
-| `ls -f`                                                                         | Show full list of files including hidden                                             |
-| `ls -al`                                                                        | Show full list of files including hidden in a detailed format                        |
+| `ls -f`                                                                         | Show full list of files (does that are hidden)                                       |
+| `ls -al`                                                                        | Show full list of files in a detailed format                                         |
 | `cd [directory name]`                                                           | Change into the specified directory                                                  |
 | `mkdir [directory name]`                                                        | Create a directory if it does not already exist                                      |
-| `mkdir -p [directory name]`                                                     | The -p flag allows us to create more then one directory                              |
+| `mkdir -p [directory name/directory name]`                                      | The -p flag allows us to create more then one directory                              |
 | `cd !$`                                                                         | cd into last mkdir path                                                              |
 | `cp -r [original directory name] [new directory name or directory destination ` | Copy a directory recursively give it a new name or place it in a specified directory |
 | `rmdir [directory name]`                                                        | Remove an empty directory                                                            |
@@ -20,6 +33,7 @@
 
 
 ## File operations
+
 | Command                                                            | Description                                                             |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | `touch [file name]`                                                | Creates a new file                                                      |
@@ -32,18 +46,6 @@
 
 &nbsp;
 
-
-## Short keys
-| Command           | Description                       |
-| ----------------- | --------------------------------- |
-| `crl+r`           | History of past commands          |
-| `crl+a`           | Jump to the front of current line |
-| `crl+e`           | Jump to the end of current line   |
-| `ctrl+l or clear` | Clear the terminal                |
-| `reset`           | Restore                           |
-| `reset`           | Restore                           |
-
-&nbsp; 
 
 | Command                    | Description                         |
 | -------------------------- | ----------------------------------- |
