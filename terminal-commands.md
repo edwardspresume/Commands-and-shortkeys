@@ -1,5 +1,7 @@
 # Terminal short-keys and Commands
 
+&nbsp; 
+
 
 ## Short keys
 
@@ -11,6 +13,21 @@
 | `ctrl+l or clear` | Clear the terminal                |
 
 &nbsp; 
+
+
+## File operations
+
+| Command                                                            | Description                                                             |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| `touch [file name]`                                                | Creates a new file                                                      |
+| `touch -d [timestamp] [file name]`                                 | The -d flags allows us to update the timestamp of a file                |
+| `rm [file name]`                                                   | Removes a file                                                          |
+| `cp [original file name] [new file name or directory destination ` | Copy a file and give it a new name or place it in a specified directory |
+| `cat [file name]`                                                  | Output the contents of a file                                           |
+| `vim [file name]`                                                  | Opens a file to then edit with more capabilities                        |
+| `nano--gedit--vi [file name]`                                      | Open the text editor                                                    |
+
+&nbsp;
 
 
 ## Directories
@@ -28,21 +45,6 @@
 | `cd !$`                                                                         | cd into last mkdir path                                                              |
 | `cp -r [original directory name] [new directory name or directory destination ` | Copy a directory recursively give it a new name or place it in a specified directory |
 | `rmdir [directory name]`                                                        | Remove an empty directory                                                            |
-
-&nbsp;
-
-
-## File operations
-
-| Command                                                            | Description                                                             |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| `touch [file name]`                                                | Creates a new file                                                      |
-| `touch -d [timestamp] [file name]`                                 | The -d flags allows us to update the timestamp of a file                |
-| `rm [file name]`                                                   | Removes a file                                                          |
-| `cp [original file name] [new file name or directory destination ` | Copy a file and give it a new name or place it in a specified directory |
-| `cat [file name]`                                                  | Output the contents of a file                                           |
-| `vim [file name]`                                                  | Opens a file to then edit with more capabilities                        |
-| `nano--gedit--vi [file name]`                                      | Open the text editor                                                    |
 
 &nbsp;
 
