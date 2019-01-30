@@ -3,7 +3,7 @@
 &nbsp; 
 
 
-## Short keys
+## Short-keys
 
 | Command           | Description                       |
 | ----------------- | --------------------------------- |
