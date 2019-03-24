@@ -28,12 +28,12 @@ A list of Git commands
 | Set user name | `git config user.name "[user name]" --global` | 
 | Set user email | `git config user.email "[user email]" --global` | 
 | Set an alias | `git config --global alias.[Alias name] [Command]`| 
-| `git config --global --unset alias.[Alias name]` | Unset an alias |
-| `git config -l \| grep alias` | Get list of aliases |
-| `git config --global --edit` | Edit the global config options |
-| `git config credential.helper store` | Store credentials on disk |
-| `git config --global credential.helper cache` | Cache credentials |
-| `git config --global core.excludesfile [File Path]` | Set a global gitignore |
+| Unset an alias | `git config --global --unset alias.[Alias name]` | 
+| Get list of aliases | `git config -l \| grep alias` | 
+| Edit the global config options | `git config --global --edit` | 
+| Store credentials on disk | `git config credential.helper store` | 
+| Cache credentials | `git config --global credential.helper cache` | 
+| Set a global gitignore | `git config --global core.excludesfile [File Path]` | 
 
 
 &nbsp;
