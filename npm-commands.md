@@ -59,11 +59,7 @@
 ## UPDATE
 
 - npm update lodash --save
-- npm update -g
 
-## RUN NODEMON
-
-- nodemon
 
 ## FIND ROOT FOLDER
 
@@ -79,21 +75,11 @@
 - npm list --depth 0
 - npm list -g --depth 1
 
-## Files
 
-- rm -rf <Folder name> (remove folder)
-- nano <\file name>
-
-## INSTALL NODMON LOCALLY
-
-- npm install live-server --save-dev
-
-## NPM SCRIPT
-
-"scripts": {
-"sass": "node-sass -w scss/ -o css/",
-"build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",
-"build-js": "browserify js/\*\*.js>build/js/script.min.js",
-"build": "npm run build-css && npm run build-js",
-"watch": "npm nodemon -e js,scss -x \"npm run build\" --ignore build/"
-}
+| Description                    | Command                                      |
+| ------------------------------ | -------------------------------------------- |
+| Update packages if update availabe | `npm update`                             | 
+| Check if a package is outdated | `npm outdated`                               | 
+| update all global packages     |`npm update -g`                               | 
+| see which global packages need to be updated | `npm outdated -g --depth=0`    | 
+| update a single global package |`npm update -g <package_name>`                | 
