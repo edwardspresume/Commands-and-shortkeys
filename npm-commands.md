@@ -7,10 +7,12 @@
 ### NPM
 | Description                    | Command                                      |
 | ------------------------------ | -------------------------------------------- |
+| Find root folder               | `npm root -g`                                |
 | NPM help info                  | `npm \| npm help`                            |
 | Get npm version                | `npm -v/--version`                           |
 | Install lastest version of npm | `npm i/install -g npm@latest`                |
 | Install lastest unofficial version of npm | `npm i -g npm@next`               |
+
 
 
 &nbsp;
@@ -37,63 +39,14 @@
 | ------------------------------ | -------------------------------------------- |
 | Install a package globaly      | `npm i -g [package name]`                    |
 | Install a package locally      | `npm i [package name]`                       |
+| Install a certain version of the package | `npm i [package Name@4.15.3]`      |
 | Install package and save as a dependency | `npm i [package name] -d/--save`   |
 | Install package and save as a dev dependency | `npm i [package name] -D/--save-dev`   |
-
-## INSTALLING LOCAL PACKAGES
-
-- npm install lodash --save (or npm install --save lodash)
-
-- npm install gulp gulp-sass --save-dev
-
-## INSTALL GLOBAL MODULE
-
-- npm install -g nodemon
-- npm install -g live-server
-
-## INSTAL DEPENDENCIES
-
-- npm install
-- npm install --production
-
-## REMOVING MODULES
-
-- npm un (or uninstall) gulp-sass --save-dev
-- npm rm (or remove) gulp --save-dev
-
-## INSTALL CERTAIN VERSIONS
-
-- npm install lodash@4.17.3 --save
-
-## UPDATE
-
-- npm update lodash --save
-
-
-## FIND ROOT FOLDER
-
-- npm root -g
-
-## REMOVE GLOBAL PACKAGES
-
-- npm remove -g nodemon
-
-## LISTING PACKAGES
-
-- npm list (or ls)
-- npm list --depth 0
-- npm list -g --depth 1
-
-
-
-
-
-
-
-| Description                    | Command                                      |
-| ------------------------------ | -------------------------------------------- |
+| Uninstall a package locally      | `npm un/uninstall \| rm/remove [package name]`      |
 | Update packages if update availabe | `npm update`                             | 
 | Check if a package is outdated | `npm outdated`                               | 
-| update all global packages     |`npm update -g`                               | 
-| see which global packages need to be updated | `npm outdated -g --depth=0`    | 
-| update a single global package |`npm update -g <package_name>`                | 
+| Update all global packages     |`npm update -g`                               | 
+| See which global packages need to be updated | `npm outdated -g --depth=0`    | 
+| Update a single global package |`npm update -g <package_name>`                |
+| List all packages | `npm list | ls `|
+| List all the pacakges with subpackage filter | `npm ls -g --depth 0` |
