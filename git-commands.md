@@ -19,6 +19,23 @@ A list of Git commands
 | `git config --global core.excludesfile [File Path]` | Set a global gitignore |
 
 
+
+&nbsp;
+
+### Git Config 2
+| Description | Command |
+| ------- | ----------- |
+| Set user name | `git config user.name "[user name]" --global` | 
+| Set user email | `git config user.email "[user email]" --global` | 
+| Set an alias | `git config --global alias.[Alias name] [Command]`| 
+| `git config --global --unset alias.[Alias name]` | Unset an alias |
+| `git config -l \| grep alias` | Get list of aliases |
+| `git config --global --edit` | Edit the global config options |
+| `git config credential.helper store` | Store credentials on disk |
+| `git config --global credential.helper cache` | Cache credentials |
+| `git config --global core.excludesfile [File Path]` | Set a global gitignore |
+
+
 &nbsp;
 
 
