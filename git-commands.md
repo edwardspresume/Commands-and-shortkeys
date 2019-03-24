@@ -31,6 +31,8 @@ A list of Git commands
 | Create a local copy of a remote repository | `git clone ssh://git@github.com/[username]/[repository-name].git` | 
 
 
+&nbsp;
+
 
 ### Basic Snapshotting
 
@@ -49,6 +51,9 @@ A list of Git commands
 | Removes file from disk and staging area | `git rm [file name.txt]` | 
 | Remove a file (or folder) | `git rm -r [file-name.txt]` | 
 | Remove everything from the repository | `git rm -r --cached .` | 
+
+
+&nbsp;
 
 
 ### Branching & Merging
@@ -74,6 +79,8 @@ A list of Git commands
 | Remove all stashed entries | `git stash clear` | 
 
 
+&nbsp;
+
 
 ### Sharing & Updating Projects
 
@@ -90,6 +97,8 @@ A list of Git commands
 | Remove repository | `git remote rm [origin]` | 
 | Set a repository's origin branch to SSH |`git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | 
 
+
+&nbsp;
 
 
 ### Inspection & Comparison
