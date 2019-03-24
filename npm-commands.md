@@ -19,7 +19,7 @@
 ### NPM Init config
 | Description                    | Command                                      |
 | ------------------------------ | -------------------------------------------- |
-| Create package.json            | `npm init or npm init -y`                    |
+| Create package.json            | `npm init \| npm init -y`                    |
 | Assign an author to the init | `npm config set init-author-name [YOUR NAME]`  |
 | Assign a license to the init | `npm set init-license [License name]`          |
 | Get the author of the package | `npm config get init-author-name`             |
@@ -38,6 +38,7 @@
 | Install a package globaly      | `npm i -g [package name]`                    |
 | Install a package locally      | `npm i [package name]`                       |
 | Install package and save as a dependency | `npm i [package name] -d/--save`   |
+| Install package and save as a dev dependency | `npm i [package name] -D/--save-dev`   |
 
 ## INSTALLING LOCAL PACKAGES
 
