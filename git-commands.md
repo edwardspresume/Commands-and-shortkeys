@@ -102,6 +102,6 @@ A list of Git commands
 | Check the changes that have been staged | `git diff --staged` | 
 | Preview changes before merging | `git diff [source branch] [target branch}` |
 | Shows one or more objects (blobs, trees, tags and commits) | `git show` |
-| Shows a specific commit | `git show [commit id] [#f03c15]|
+| Shows a specific commit | `git show [commit id] [#f03c15]('asdasd')|
 
 
