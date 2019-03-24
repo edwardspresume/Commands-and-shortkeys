@@ -4,25 +4,9 @@ A list of Git commands
 
 
 &nbsp;
+ 
 
-### Git Config
-| Command | Description |
-| ------- | ----------- |
-| `git config user.name "[user name]" --global` | Set user name |
-| `git config user.email "[user email]" --global` | Set user email |
-| `git config --global alias.[Alias name] [Command]`| Set an alias |
-| `git config --global --unset alias.[Alias name]` | Unset an alias |
-| `git config -l \| grep alias` | Get list of aliases |
-| `git config --global --edit` | Edit the global config options |
-| `git config credential.helper store` | Store credentials on disk |
-| `git config --global credential.helper cache` | Cache credentials |
-| `git config --global core.excludesfile [File Path]` | Set a global gitignore |
-
-
-
-&nbsp;
-
-### Git Config 2
+### Git Config 
 | Description | Command |
 | ------- | ----------- |
 | Set user name | `git config user.name "[user name]" --global` | 
@@ -41,27 +25,30 @@ A list of Git commands
 
 ### Getting & Creating Projects
 
-| Command | Description |
+| Description | Command |
 | ------- | ----------- |
-| `git init [folder name (optional)]` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| Initialize a local Git repository | `git init [folder name (optional)]` | 
+| Create a local copy of a remote repository | `git clone ssh://git@github.com/[username]/[repository-name].git` | 
 
 
 
 ### Basic Snapshotting
 
-| Command | Description |
+| Description | Command |
 | ------- | ----------- |
-| `git status` | Check status |
-| `git add [file-name.txt]` | Add a file to the staging area |
-| `git add *.txt` | Adds all text files in current directory |
-| `git add (-A) or (.)` | Add all new and changed files to the staging area |
-| `git add -p` | Review and add chuncks to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
-| `git commit -am "[commit message]"` | Auto remove deleted files from commit |
-| `git rm [file name.txt]` | Removes file from disk and staging area
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
-| `git rm -r --cached .` | Remove everything from the repository |
+| Check status | `git status` | 
+| Reset staging | `git reset` |
+| Assign a version | `git tag [version name/number]` |
+| Bring up a version | `git checkout [version name/number` |
+| Add a file to the staging area | `git add [file-name.txt]` | 
+| Adds all text files in current directory | `git add *.txt` | 
+| Add all new and changed files to the staging area | `git add (-A) or (.)` | 
+| Review and add chuncks to the staging area | `git add -p` | 
+| Commit changes | `git commit -m "[commit message]"` | 
+| Auto remove deleted files from commit | `git commit -am "[commit message]"` | 
+| Removes file from disk and staging area | `git rm [file name.txt]` | 
+| Remove a file (or folder) | `git rm -r [file-name.txt]` | 
+| Remove everything from the repository | `git rm -r --cached .` | 
 
 
 ### Branching & Merging
@@ -78,6 +65,7 @@ A list of Git commands
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
+| Go back to last commit | `git checkout -- .` |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git checkout [commit id]` | Look out previous code (read only) |
 | `git merge [branch name]` | Merge a branch into the active branch |
@@ -106,12 +94,14 @@ A list of Git commands
 
 ### Inspection & Comparison
 
-| Command | Description |
+| Description | Command |
 | ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git diff head` | Checks the changes made from the last commit |
-| `git diff --staged` | Check the changes that have been staged |
-| `git diff [source branch] [target branch}` | Preview changes before merging |
+| View changes | `git log` | 
+| View changes (detailed) | `git log --summary` | 
+| Checks the changes made from the last commit | `git diff head` | 
+| Check the changes that have been staged | `git diff --staged` | 
+| Preview changes before merging | `git diff [source branch] [target branch}` |
+| Shows one or more objects (blobs, trees, tags and commits) | `git show` |
+| Shows a specific commit | `git show [commit id] |
 
 
