@@ -1,12 +1,14 @@
 # NPM Commands
 
 
-### NPM Config
+### NPM Init config
 | Description                    | Command                                      |
 | ------------------------------ | -------------------------------------------- |
 | Create package.json            | `npm init or npm init -y`
 | Assign an author to the init | `npm config set init-author-name [YOUR NAME]` |
 | Assign a license to the init | `npm set init-license "MIT"` |
+| Get the author of the package | `npm config get init-author-name` |
+| Get the license of the pacakge | `npm get init-license` |
 
 ## GET VERSION
 
@@ -19,12 +21,6 @@
 - npm help
 - npm
 
-
-
-## GET DEFAULTS
-
-- npm config get init-author-name
-- npm get init-license
 
 ## REMOVE DEFAULTS
 
