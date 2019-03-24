@@ -12,11 +12,11 @@ A list of Git commands
 | `git config user.email "[user email]" --global` | Set user email |
 | `git config --global alias.[Alias name] [Command]`| Set an alias |
 | `git config --global --unset alias.[Alias name]` | Unset an alias |
-| `git config -l | grep alias` | Get list of aliases |
+| `git config -l \| grep alias` | Get list of aliases |
 | `git config --global --edit` | Edit the global config options |
 | `git config credential.helper store` | Store credentials on disk |
 | `git config --global credential.helper cache` | Cache credentials |
-| `git config --global core.excludesfile [File Path|` | Set a global gitignore |
+| `git config --global core.excludesfile [File Path]` | Set a global gitignore |
 
 
 &nbsp;
