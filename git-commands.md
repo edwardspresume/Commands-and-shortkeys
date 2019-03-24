@@ -5,11 +5,18 @@ A list of Git commands
 
 &nbsp;
 
-### Setup user info for commit credit
+### Git Config
 | Command | Description |
 | ------- | ----------- |
-| `git config user.name "[user name]" --global`| Set user name|
-| `git config user.email "[user email]" --global`| Set user email|
+| `git config user.name "[user name]" --global` | Set user name |
+| `git config user.email "[user email]" --global` | Set user email |
+| `git config --global alias.[Alias name] [Command]`| Set an alias |
+| `git config --global --unset alias.[Alias name]` | Unset an alias |
+| `git config -l | grep alias` | Get list of aliases |
+| `git config --global --edit` | Edit the global config options |
+| `git config credential.helper store` | Store credentials on disk |
+| `git config --global credential.helper cache` | Cache credentials |
+| `git config --global core.excludesfile [File Path|` | Set a global gitignore |
 
 
 &nbsp;
@@ -32,12 +39,12 @@ A list of Git commands
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add *.txt` | Adds all text files in current directory |
 | `git add (-A) or (.)` | Add all new and changed files to the staging area |
-| `git add -A` | Add all new and changed files to the staging area |
+| `git add -p` | Review and add chuncks to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git commit -am "[commit message]"` | Auto remove deleted files from commit |
 | `git rm [file name.txt]` | Removes file from disk and staging area
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
-
+| `git rm -r --cached .` | Remove everything from the repository |
 
 
 ### Branching & Merging
