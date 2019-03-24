@@ -1,8 +1,9 @@
 Git Commands
 ============
-_A list of Git commands_
+A list of Git commands
 
--- 
+
+&nbsp;
 
 ### Setup user info for commit credit
 | Command | Description |
@@ -10,6 +11,8 @@ _A list of Git commands_
 | `git config user.name "[user name]" --global`| Set user name|
 | `git config user.email "[user email]" --global`| Set user email|
 
+
+&nbsp;
 
 
 ### Getting & Creating Projects
