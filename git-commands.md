@@ -53,42 +53,42 @@ A list of Git commands
 
 ### Branching & Merging
 
-| Command | Description |
+| Description | Command |
 | ------- | ----------- |
-| `git branch` | List branches (the asterisk denotes the current branch) |
-| `git branch -a` | List all branches (local and remote) |
-| `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
-| `git branch -D [branch name]` | Forcefully delete a branch |
-| `git push origin --delete [branchName]` | Delete a remote branch |
-| `git checkout -b [branch name]` | Create a new branch and switch to it |
-| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
-| `git checkout [branch name]` | Switch to a branch |
-| `git checkout -` | Switch to the branch last checked out |
+| List branches (the asterisk denotes the current branch) | `git branch` | 
+| List all branches (local and remote) | `git branch -a` | 
+| Create a new branch | `git branch [branch name]` | 
+| Delete a branch | `git branch -d [branch name]` | 
+| Forcefully delete a branch | `git branch -D [branch name]` | 
+| Delete a remote branch | `git push origin --delete [branchName]` | 
+| Create a new branch and switch to it |`git checkout -b [branch name]` | 
+| Clone a remote branch and switch to it | `git checkout -b [branch name] origin/[branch name]` | 
+| Switch to a branch | `git checkout [branch name]` | 
+| Switch to the branch last checked out | `git checkout -` | 
 | Go back to last commit | `git checkout -- .` |
-| `git checkout -- [file-name.txt]` | Discard changes to a file |
-| `git checkout [commit id]` | Look out previous code (read only) |
-| `git merge [branch name]` | Merge a branch into the active branch |
-| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash changes in a dirty working directory |
-| `git stash clear` | Remove all stashed entries |
+| Discard changes to a file | `git checkout -- [file-name.txt]` | 
+| Look out previous code (read only) | `git checkout [commit id]` | 
+| Merge a branch into the active branch | `git merge [branch name]` | 
+| Merge a branch into a target branch | `git merge [source branch] [target branch]` | 
+| Stash changes in a dirty working directory |`git stash` | 
+| Remove all stashed entries | `git stash clear` | 
 
 
 
 ### Sharing & Updating Projects
 
-| Command | Description |
+| Description| Command |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository |
-| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
-| `git push` | Push changes to remote repository (remembered branch) |
-| `git push origin --delete [branch name]` | Delete a remote branch |
-| `git pull` | Update local repository to the newest commit |
-| `git pull origin [branch name]` | Pull changes from remote repository |
-| `git remote -v` | Get info about remote repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
-| `git remote rm [origin]` | Remove repository
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| Push a branch to your remote repository | `git push origin [branch name]` | 
+| Push changes to remote repository (and remember the branch) | `git push -u origin [branch name]` | 
+| Push changes to remote repository (remembered branch) | `git push` | 
+| Delete a remote branch | `git push origin --delete [branch name]` | 
+| Update local repository to the newest commit | `git pull` | 
+| Pull changes from remote repository | `git pull origin [branch name]` | 
+| Get info about remote repository | `git remote -v` | 
+| Add a remote repository | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | 
+| Remove repository | `git remote rm [origin]` | 
+| Set a repository's origin branch to SSH |`git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | 
 
 
 
@@ -102,6 +102,6 @@ A list of Git commands
 | Check the changes that have been staged | `git diff --staged` | 
 | Preview changes before merging | `git diff [source branch] [target branch}` |
 | Shows one or more objects (blobs, trees, tags and commits) | `git show` |
-| Shows a specific commit | `git show [commit id] [#f03c15]('asdasd')|
+| Shows a specific commit | `git show [commit id]`|
 
 
