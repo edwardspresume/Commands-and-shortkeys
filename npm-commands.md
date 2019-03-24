@@ -1,36 +1,48 @@
 # NPM Commands
 
 
+&nbsp;
+
+
+### NPM
+| Description                    | Command                                      |
+| ------------------------------ | -------------------------------------------- |
+| NPM help info                  | `npm \| npm help`                            |
+| Get npm version                | `npm -v/--version`                           |
+| Install lastest version of npm | `npm i/install -g npm@latest`                |
+| Install lastest unofficial version of npm | `npm i -g npm@next`               |
+
+
+&nbsp;
+
+
 ### NPM Init config
 | Description                    | Command                                      |
 | ------------------------------ | -------------------------------------------- |
-| Create package.json            | `npm init or npm init -y`
-| Assign an author to the init | `npm config set init-author-name [YOUR NAME]` |
-| Assign a license to the init | `npm set init-license "MIT"` |
-| Get the author of the package | `npm config get init-author-name` |
-| Get the license of the pacakge | `npm get init-license` |
-
-## GET VERSION
-
-- npm -v (or --version)
-- npm install -g npm@latest
-- npm i -g npm@next
-
-## GET HELP
-
-- npm help
-- npm
+| Create package.json            | `npm init or npm init -y`                    |
+| Assign an author to the init | `npm config set init-author-name [YOUR NAME]`  |
+| Assign a license to the init | `npm set init-license [License name]`          |
+| Get the author of the package | `npm config get init-author-name`             |
+| Get the license of the pacakge | `npm get init-license`                       |
+| Remove the license of the package | `npm delete init-license`                 |
+| Remove the author of the package | `npm config delete init-author-name`       |
 
 
-## REMOVE DEFAULTS
+&nbsp;
 
-- npm config delete init-author-name
-- npm delete init-license
+
+### Packages
+
+| Description                    | Command                                      |
+| ------------------------------ | -------------------------------------------- |
+| Install a package globaly      | `npm i -g [package name]`                    |
+| Install a package locally      | `npm i [package name]`                       |
+| Install package and save as a dependency | `npm i [package name] -d/--save`   |
 
 ## INSTALLING LOCAL PACKAGES
 
 - npm install lodash --save (or npm install --save lodash)
-- npm install moment --save
+
 - npm install gulp gulp-sass --save-dev
 
 ## INSTALL GLOBAL MODULE
