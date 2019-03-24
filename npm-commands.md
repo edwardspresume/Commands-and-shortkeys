@@ -1,5 +1,13 @@
 # NPM Commands
 
+
+### NPM Config
+| Description                    | Command                                      |
+| ------------------------------ | -------------------------------------------- |
+| Create package.json            | `npm init or npm init -y`
+| Assign an author to the init | `npm config set init-author-name [YOUR NAME]` |
+| Assign a license to the init | `npm set init-license "MIT"` |
+
 ## GET VERSION
 
 - npm -v (or --version)
@@ -11,15 +19,7 @@
 - npm help
 - npm
 
-## CREATE PACKAGE.JSON
 
-- npm init
-- npm init -y (or --yes)
-
-## SET DEFAULTS
-
-- npm config set init-author-name "YOUR NAME"
-- npm set init-license "MIT"
 
 ## GET DEFAULTS
 
@@ -74,6 +74,11 @@
 - npm list (or ls)
 - npm list --depth 0
 - npm list -g --depth 1
+
+
+
+
+
 
 
 | Description                    | Command                                      |
