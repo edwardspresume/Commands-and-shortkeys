@@ -48,5 +48,5 @@
 | Update all global packages     |`npm update -g`                               | 
 | See which global packages need to be updated | `npm outdated -g --depth=0`    | 
 | Update a single global package |`npm update -g <package_name>`                |
-| List all packages | `npm list | ls `|
+| List all packages | `npm list \| ls `|
 | List all the pacakges with subpackage filter | `npm ls -g --depth 0` |
