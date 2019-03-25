@@ -1,0 +1,1 @@
+<pip list> :: Give a list of pip packages
