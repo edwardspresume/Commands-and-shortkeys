@@ -92,7 +92,7 @@
 | -------------------------- | ------------------------------------------- |
 | Restart laptop/desktop              | `sudo reboot`                      | 
 | Shutdow the system in givin time    | `sudo shutdown -h [time:15]`       | 
-| Run last command as sudo/root       | `[Sudo /| command] !!`             | 
+| Run last command as sudo/root       | `[Sudo \| command] !!`             | 
 | Tell where a app is in the system   | `which [application name]`         | 
 | Restore a console to a normal state | `reset`                            | 
 | Terminate an application from excuting | `killall [app name]`            |
