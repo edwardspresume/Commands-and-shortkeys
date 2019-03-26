@@ -89,23 +89,23 @@
 
 ### General Commands
 
-| Description                | Command                                     |
-| -------------------------- | ------------------------------------------- |
-| send ICMP ECHO_REQUEST to network hosts       | `ping`                   |
-| check status of a website                     | `ping [url] -c 3`        |
-| Open server                                   | `py -3 -m http.server`   |
-| Restart laptop/desktop              | `sudo reboot`                      | 
-| Shutdow the system in givin time    | `sudo shutdown -h [time:15]`       | 
-| Run last command as sudo/root       | `[Sudo \| command] !!`             | 
-| Tell where a app is in the system   | `which [application name]`         | 
-| Restore a console to a normal state | `reset`                            | 
-| Terminate an application from excuting | `killall [app name]`            |
-| Shows drivers (usb,hardrive, ect...) | `sudo blkid`                      |
-| shows all the commands of a givin thing | `man [app, command name ]`     |
-| Displays operating systems info     | `screenfetch`                      |
-| fix a really long command that you messed up through editor | `fc`       |
-| Exit terminal but leave all processes running | `disown -a && exit`      |
-| Shows where an application is       | `whereis [application]`            |
+| Description                        | Command                                     |
+| ---------------------------------- | ------------------------------------------- |
+| send ICMP ECHO_REQUEST to network hosts       | `ping`                           |
+| check status of a website                     | `ping [url] -c 3`                |
+| Open server                                   | `py -3 -m http.server`           |
+| Restart system                                | `sudo reboot`                    | 
+| Shutdow the system in given time              | `sudo shutdown -h [time:15]`     | 
+| Run last command as sudo/root                 | `[Sudo \| command] !!`           | 
+| Tell where a app is in the system             | `which [application name]`       | 
+| Restore a console to a normal state           | `reset`                          | 
+| Terminate an application from excuting        | `killall [app name]`             |
+| Shows drivers (usb,hardrive, ect...)          | `sudo blkid`                     |
+| shows all the commands of a givin thing       | `man [app, command name ]`       | 
+| Displays operating systems info               | `screenfetch`                    |
+| fix a really long command that you messed up through editor | `fc`               |
+| Exit terminal but leave all processes running | `disown -a && exit`              |
+| Shows where an application is                 | `whereis [application]`          |
 
 
 &nbsp; 
