@@ -33,20 +33,20 @@
 
 ### File operations
 
-| Command                                                            | Description                                                             |
+| Description                                                        | Command                                                                 |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| `touch [file name]`                                                | Creates a new file                                                      |
-| `touch -d [timestamp] [file name]`                                 | The -d flags allows us to update the timestamp of a file                |
-| `rm [file name]`                                                   | Removes a file                                                          |
-| `sudo rm -f *`                                                     | Remove all the files of the current directory                           |
-| `sudo rm *[.ext]`                                                  | Remove all the files with that extension                                |
-| `find  -maxdepth 2 -mindepth 1 -type f -name "*.png" -delete`      | Remove all the nested files with that extension                         |
-| `cp [original file name] [new file name or directory destination ` | Copy a file and give it a new name or place it in a specified directory |
-| `cat [file name]`                                                  | Output the contents of a file                                           |
-| `less [file name]`                                                 | Output the contents of a file in chucks                                 |
-| `vim [file name]`                                                  | Opens a file to then edit with more capabilities                        |
-| `nano/gedit/vi [file name]`                                        | Open the text editor                                                    |
-
+| Creates a new file                                                 | `touch [file name]`                                                     | 
+| The -d flags allows us to update the timestamp of a file           | `touch -d [timestamp] [file name]`                                      | 
+| Removes a file                                                     | `rm [file name]`                                                        | 
+| Remove all the files of the current directory                      | `sudo rm -f *`                                                          | 
+| Remove all the files with that extension                           | `sudo rm *[.ext]`                                                       | 
+| Remove all the nested files with that extension                    | `find  -maxdepth 2 -mindepth 1 -type f -name "*.png" -delete`           | 
+| Copy a file and give it a new name or place it in a specified directory | `cp [original file name] [new file name or directory destination ` | 
+| Output the contents of a file                                      | `cat [file name]`                                                       | 
+| Output the contents of a file in chucks                            | `less [file name]`                                                      | 
+| Opens a file to then edit with more capabilities                   | `vim [file name]`                                                       | 
+| Open the text editor                                               | `nano/gedit/vi [file name]`                                             | 
+    
 
 &nbsp;
 
@@ -54,23 +54,23 @@
 ### Directories
 
 
-| Command                                                                         | Description                                                                          |
+| Description                                                                     | Command                                                                              |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| `cd /`                                                                          | Go to root folder                                                                    |
-| `pwd`                                                                           | Displays  current working directory                                                  |
-| `ls`                                                                            | List files in a directory                                                            |
-| `ls -l`                                                                         | List files in a detailed format                                                      |
-| `ls -f`                                                                         | Show full list of files (does that are hidden)                                       |
-| `ls -al`                                                                        | Show full list of files in a detailed format                                         |
-| `cd [directory name]`                                                           | Change into the specified directory                                                  |
-| `mkdir [directory name]`                                                        | Create a directory if it does not already exist                                      |
-| `mkdir -p [directory name]/{sub1, sub2}/{sub3}`                                 | The -p flag allows us to create more then one directory                              |
-| `mkdir -p [directory name]/{1..100}/{1..100}`                                   | The -p flag allows us to create more then one directory                              |
-| `cd !$`                                                                         | cd into last mkdir path                                                              |
-| `cp -r [original directory name] [new directory name or directory destination ` | Copy a directory recursively give it a new name or place it in a specified directory |
-| `rmdir [directory name]`                                                        | Remove an empty directory                                                            |
-| `find . -name "node_modules" -type d -prune -exec rm -rf '{}' '+'`              | Remove all node folders                                                              | 
-| `find . -path '*/node_modules*' -delete`                                        | Remove all node folders                                                              | 
+| Go to root folder                                                               | `cd /`                                                                               | 
+| Displays  current working directory                                             | `pwd`                                                                                | 
+| List files in a directory                                                       | `ls`                                                                                 | 
+| List files in a detailed format                                                 | `ls -l`                                                                              | 
+| Show full list of files (does that are hidden)                                  | `ls -f`                                                                              | 
+| Show full list of files in a detailed format                                    | `ls -al`                                                                             | 
+| Change into the specified directory                                             | `cd [directory name]`                                                                | 
+| Create a directory if it does not already exist                                 | `mkdir [directory name]`                                                             | 
+| The -p flag allows us to create more then one directory                         | `mkdir -p [directory name]/{sub1, sub2}/{sub3}`                                      | 
+| The -p flag allows us to create more then one directory                         | `mkdir -p [directory name]/{1..100}/{1..100}`                                        | 
+| cd into last mkdir path                                                         | `cd !$`                                                                              | 
+| Copy a directory recursively give it a new name or place it in a specified directory | `cp -r [original directory name] [new directory name or directory destination ` | 
+| Remove an empty directory                                                       | `rmdir [directory name]`                                                             | 
+| Remove all node folders                                                         | `find . -name "node_modules" -type d -prune -exec rm -rf '{}' '+'`                   | 
+| Remove all node folders                                                         | `find . -path '*/node_modules*' -delete`                                             | 
 
 
 &nbsp;
@@ -88,8 +88,12 @@
 
 
 ### General Commands
+
 | Description                | Command                                     |
 | -------------------------- | ------------------------------------------- |
+| send ICMP ECHO_REQUEST to network hosts       | `ping`                   |
+| check status of a website                     | `ping [url] -c 3`        |
+| Open server                                   | `py -3 -m http.server`   |
 | Restart laptop/desktop              | `sudo reboot`                      | 
 | Shutdow the system in givin time    | `sudo shutdown -h [time:15]`       | 
 | Run last command as sudo/root       | `[Sudo \| command] !!`             | 
@@ -117,24 +121,15 @@
 &nbsp;
 
 
-## Network
+# Applications 
 
-- **ping** : Test a network connection
-- **ping [url] -c 3** :: check status of a website
-- **py -3 -m http.server** :: Open server
-
-
-
-
-#Applications#
-####################################
 
 sudo systemctl --failed
 
 sudo timeset-gui
 
 
-#Tilix#
-####################################
+# Tilix
+
 ${appName}: ${sessionName}
 gsettings set com.gexperts.Tilix.Settings window-style normal
