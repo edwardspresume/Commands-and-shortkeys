@@ -23,3 +23,4 @@
 - **Ctrl-I** : Select current line
 - **Ctrl-Space** : to trigger the suggestion widget
 - **Ctrl-(.)** : Code option
+- **shift-ctrl-l**: Place a cursor behind all instances of a search result
