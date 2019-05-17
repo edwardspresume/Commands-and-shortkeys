@@ -2,25 +2,23 @@
 
 ## General
 
-- **Ctrl-shift-P** : Command palette
-- **Ctrl-P** : Quick file open (project files)
-- **Ctrl-Shift-M** : Error and warnings
-- **Ctrl-K, Ctrl-S** : Keyboard Shortcut
-- **Ctrl-(,)** : User setting
-- **Ctrl-(`)** : Terminal
-- **Ctrl-B** : Toggle sidebar
-- **Ctrl-K-Z** : Zen mode
+| Description                 | Command        |
+| --------------------------- | -------------- |
+| Command palette             | `Ctrl-shift-P` |
+| Toggle sidebar              | `Ctrl-B`       |
+| Quick file open, Go to file | `Ctrl-P`       |
+| User setting                | `Ctrl-(,)`     |
+| Problems Panel              | `Ctrl-Shift-M` |
+
+&nbsp;
 
 ## Editor
 
-- **Ctrl-Click** : Create or open a file
-- **Ctrl-Shift-Alt-Up** : Multi cursor (reverse)
-- **Shift-Alt-Up** : Copy line up (reverse)
-- **Shift-Alt-Left** : Shrink line selection (reverse)
-- **Ctrl-B** : Navigate to a specific line
-- **Alt-Up** : Navigate to a specific line (reverse)
-- **Shift-Alt-F**: Code format
-- **Ctrl-I** : Select current line
-- **Ctrl-Space** : to trigger the suggestion widget
-- **Ctrl-(.)** : Code option
-- **shift-ctrl-l**: Place a cursor behind all instances of a search result
+| Description                             | Command          |
+| --------------------------------------- | ---------------- |
+| Quick fix                               | `ctrl-(.)`       |
+| to trigger the suggestion widget        | `Ctrl-Space`     |
+| General search of workspace             | `ctrl-shift-f`   |
+| Select all instances of a search result | `ctrl-shift-l`   |
+| Multi cursor selection                  | `Shift-Alt-Up`   |
+| Line selection base on scope            | `Shift-Alt-Left` |
