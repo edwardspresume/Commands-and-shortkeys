@@ -96,7 +96,7 @@
 | fix a really long command that you messed up through editor | `fc`                         |
 | Exit terminal but leave all processes running               | `disown -a && exit`          |
 | Shows where an application is                               | `whereis [application]`      |
-
+| Get and set  application settings                           | `gsettings get/set org.blueman.transfer shared-path '/home/me'`      |
 &nbsp;
 
 ## Text editor

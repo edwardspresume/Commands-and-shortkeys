@@ -103,11 +103,12 @@ A list of Git commands
 
 ### Inspection & Comparison
 
-| Description | Command |
-| ------- | ----------- |
-| View changes | `git log` | 
+| Description                                                 | Command                      |
+| ----------------------------------------------------------- | ---------------------------- |
+| View changes |                                               `git log`                     |
 | View changes (detailed) | `git log --summary` | 
 | Checks the changes made from the last commit | `git diff head` | 
+| Checks the changes made from the file of a specified commit | `git diff [commit id] [file]` | 
 | Check the changes that have been staged | `git diff --staged` | 
 | Preview changes before merging | `git diff [source branch] [target branch}` |
 | Shows one or more objects (blobs, trees, tags and commits) | `git show` |
