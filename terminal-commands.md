@@ -1,16 +1,16 @@
 # Terminal short-keys and Commands
-
+grep -Ril "text-to-find-here" /
 &nbsp;
 
 ### Package manager
 
-| Description              | Command                       |
-| ------------------------ | ----------------------------- |
-| Update package in system | `sudo pacman -Syu`            |
-| Install desired package  | `sudo -s [package name]` |
-| Download dependency      | `sudo apt -f install`         |
-| Update for node packages | `sudo pacman --force -Syyu`   |
-| list all packages explicitly installed and not required as dependencies | `pacman -Qet`   |
+| Description                                                             | Command                     |
+| ----------------------------------------------------------------------- | --------------------------- |
+| Update package in system                                                | `sudo pacman -Syu`          |
+| Install desired package                                                 | `sudo -s [package name]`    |
+| Download dependency                                                     | `sudo apt -f install`       |
+| Update for node packages                                                | `sudo pacman --force -Syyu` |
+| list all packages explicitly installed and not required as dependencies | `pacman -Qet`               |
 
 
 &nbsp;
@@ -55,6 +55,7 @@
 | List files in a detailed format                                                      | `ls -l`                                                                        |
 | Show full list of files (does that are hidden)                                       | `ls -f`                                                                        |
 | Show full list of files in a detailed format                                         | `ls -al`                                                                       |
+| do not ignore entries starting with .                                                | `ls -a/--all`                                                                  |
 | Change into the specified directory                                                  | `cd [directory name]`                                                          |
 | Create a directory if it does not already exist                                      | `mkdir [directory name]`                                                       |
 | The -p flag allows us to create more then one directory                              | `mkdir -p [directory name]/{sub1, sub2}/{sub3}`                                |
@@ -79,24 +80,24 @@
 
 ### General Commands
 
-| Description                                                 | Command                      |
-| ----------------------------------------------------------- | ---------------------------- |
-| send ICMP ECHO_REQUEST to network hosts                     | `ping`                       |
-| check status of a website                                   | `ping [url] -c 3`            |
-| Open server                                                 | `py -3 -m http.server`       |
-| Restart system                                              | `sudo reboot`                |
-| Shutdow the system in given time                            | `sudo shutdown -h [time:15]` |
-| Run last command as sudo/root                               | `[Sudo \| command] !!`       |
-| Tell where a app is in the system                           | `which [application name]`   |
-| Restore a console to a normal state                         | `reset`                      |
-| Terminate an application from excuting                      | `killall [app name]`         |
-| Shows drivers (usb,hardrive, ect...)                        | `sudo blkid`                 |
-| shows all the commands of a givin thing                     | `man [app, command name ]`   |
-| Displays operating systems info                             | `screenfetch`                |
-| fix a really long command that you messed up through editor | `fc`                         |
-| Exit terminal but leave all processes running               | `disown -a && exit`          |
-| Shows where an application is                               | `whereis [application]`      |
-| Get and set  application settings                           | `gsettings get/set org.blueman.transfer shared-path '/home/me'`      |
+| Description                                                 | Command                                                         |
+| ----------------------------------------------------------- | --------------------------------------------------------------- |
+| send ICMP ECHO_REQUEST to network hosts                     | `ping`                                                          |
+| check status of a website                                   | `ping [url] -c 3`                                               |
+| Open server                                                 | `py -3 -m http.server`                                          |
+| Restart system                                              | `sudo reboot`                                                   |
+| Shutdow the system in given time                            | `sudo shutdown -h [time:15]`                                    |
+| Run last command as sudo/root                               | `[Sudo \| command] !!`                                          |
+| Tell where a app is in the system                           | `which [application name]`                                      |
+| Restore a console to a normal state                         | `reset`                                                         |
+| Terminate an application from excuting                      | `killall [app name]`                                            |
+| Shows drivers (usb,hardrive, ect...)                        | `sudo blkid`                                                    |
+| shows all the commands of a givin thing                     | `man [app, command name ]`                                      |
+| Displays operating systems info                             | `screenfetch`                                                   |
+| fix a really long command that you messed up through editor | `fc`                                                            |
+| Exit terminal but leave all processes running               | `disown -a && exit`                                             |
+| Shows where an application is                               | `whereis [application]`                                         |
+| Get and set  application settings                           | `gsettings get/set org.blueman.transfer shared-path '/home/me'` |
 &nbsp;
 
 ## Text editor
