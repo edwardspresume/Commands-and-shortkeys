@@ -1,4 +1,5 @@
 # Terminal short-keys and Commands
+
 grep -Ril "text-to-find-here" /
 &nbsp;
 
@@ -7,11 +8,11 @@ grep -Ril "text-to-find-here" /
 | Description                                                             | Command                     |
 | ----------------------------------------------------------------------- | --------------------------- |
 | Update package in system                                                | `sudo pacman -Syu`          |
-| Install desired package                                                 | `sudo -s [package name]`    |
+| Install a package                                                       | `sudo -s [package name]`    |
+| Remove package                                                          | `sudo -R [package name]`    |
 | Download dependency                                                     | `sudo apt -f install`       |
 | Update for node packages                                                | `sudo pacman --force -Syyu` |
 | list all packages explicitly installed and not required as dependencies | `pacman -Qet`               |
-
 
 &nbsp;
 
@@ -85,6 +86,7 @@ grep -Ril "text-to-find-here" /
 | send ICMP ECHO_REQUEST to network hosts                     | `ping`                                                          |
 | check status of a website                                   | `ping [url] -c 3`                                               |
 | Open server                                                 | `py -3 -m http.server`                                          |
+| Root                                                        | `sudo su`                                                       |
 | Restart system                                              | `sudo reboot`                                                   |
 | Shutdow the system in given time                            | `sudo shutdown -h [time:15]`                                    |
 | Run last command as sudo/root                               | `[Sudo \| command] !!`                                          |
@@ -97,7 +99,8 @@ grep -Ril "text-to-find-here" /
 | fix a really long command that you messed up through editor | `fc`                                                            |
 | Exit terminal but leave all processes running               | `disown -a && exit`                                             |
 | Shows where an application is                               | `whereis [application]`                                         |
-| Get and set  application settings                           | `gsettings get/set org.blueman.transfer shared-path '/home/me'` |
+| Get and set application settings                            | `gsettings get/set org.blueman.transfer shared-path '/home/me'` |
+
 &nbsp;
 
 ## Text editor
@@ -114,9 +117,31 @@ sudo systemctl --failed
 
 sudo timeset-gui
 
+sudo freshclam :: Updates virus database
+sudo clamscan -r -i --bell :: Scan dir recursively and only render infected files
+
 &nbsp;
 
 # Tilix
 
 ${appName}: ${sessionName}
 gsettings set com.gexperts.Tilix.Settings window-style normal
+
+Search for pattern with exclusion: grep -Ril --exclude-={css,js} searchPattern searchDir
+
+```purgecss --css css/header.css --content _.php _.js includes/**/\*.js includes/**/_.php includes/_.php templates/\*_/_.php --out ../unused_css_result/```
+
+Command history: ```history```
+
+cd into folder and run script: (cd /path/to/your/app && npm start && cd -)
+npm test --prefix ~/folder path/
+
+To make this changes permanent, you can put this line to your .bashrc, for example. Execute echo 'alias kt="killall gnome-terminal"' >> ~/.bashrc && source ~/.bash_aliases
+
+To refresh your .bashrc file type the following in terminal,
+```. ~/.bashrc``` or  ```source .bashrc```
+
+To add an alias type the following in terminal,it will work until you close your terminal.
+```alias kt='killall gnome-panel'```
+
+Show system bit: ```uname -m```

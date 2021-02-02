@@ -61,6 +61,7 @@ A list of Git commands
 | Description | Command |
 | ------- | ----------- |
 | List branches (the asterisk denotes the current branch) | `git branch` | 
+| List remote branches | `git branch -r` | 
 | List all branches (local and remote) | `git branch -a` | 
 | Create a new branch | `git branch [branch name]` | 
 | Delete a branch | `git branch -d [branch name]` | 
@@ -115,3 +116,4 @@ A list of Git commands
 | Shows a specific commit | `git show [commit id]`|
 
 
+Add all except excluded files from staging: git add --all -- :!path
